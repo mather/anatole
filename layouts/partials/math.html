@@ -20,16 +20,16 @@
     </script>
 
   {{- else -}}
-    {{- $url := "https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css" -}}
-    {{- $hash := "sha384-t5CR+zwDAROtph0PXGte6ia8heboACF9R5l/DiY+WZ3P2lxNgvJkQk5n7GPvLMYw" -}}
+    {{- $url := "https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" -}}
+    {{- $hash := "sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" -}}
     <link rel="stylesheet" href="{{- $url -}}" integrity="{{- $hash -}}" crossorigin="anonymous" />
 
-    {{- $url := "https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js" -}}
-    {{- $hash := "sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8+w2LAIftJEULZABrF9PPFv+tVkH" -}}
+    {{- $url := "https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" -}}
+    {{- $hash := "sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY" -}}
     <script defer src="{{- $url -}}" integrity="{{- $hash -}}" crossorigin="anonymous"></script>
 
-    {{- $url := "https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js" -}}
-    {{- $hash := "sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB+w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v" -}}
+    {{- $url := "https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" -}}
+    {{- $hash := "sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" -}}
     <script
       defer
       src="{{- $url -}}"
